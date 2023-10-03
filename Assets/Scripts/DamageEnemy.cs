@@ -9,11 +9,15 @@ public class DamageEnemy : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         GameObject _player = GameObject.Find("Player");
-        Scale scale = _player.GetComponent<Scale>();
+        Scale _scale = _player.GetComponent<Scale>();
 
-        if (collision.CompareTag("Player") && scale._downScale)
+        GameObject _manager = GameObject.Find("GameManager");
+        Scores _score = _manager.GetComponent<Scores>();
+
+        if (collision.CompareTag("Player") && _scale._downScale)
         {
-            scale.downScale(_downScale);
+            _scale.downScale(_downScale);
+            _score.ScoreDown(1);
             DestroyEnemy();
         }
     }

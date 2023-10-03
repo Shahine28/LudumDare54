@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using static UnityEditor.Experimental.GraphView.GraphView;
-
 public class Scores : MonoBehaviour
 {
     [SerializeField] int _coinCount;
@@ -12,6 +10,12 @@ public class Scores : MonoBehaviour
     [SerializeField] TMP_Text _score;
 
     [SerializeField] float _bigScale;
+
+    private void Start()
+    {
+        _coinCount = 0;
+        _coinsCountMultipl = 0;
+    }
 
     private void Update()
     {
@@ -34,5 +38,18 @@ public class Scores : MonoBehaviour
 
         _coinsCountMultipl += value;
         _scoreMultipl.text = _coinsCountMultipl.ToString();
+    }
+
+    public void ScoreDown(int value)
+    {
+        if (_coinCount > 0)
+        {
+            _coinCount -= value;
+            _score.text = _coinCount.ToString();
+        }
+        else
+        {
+            Debug.Log("plus de points");
+        }
     }
 }

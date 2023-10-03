@@ -20,11 +20,11 @@ public class SpawnCoins : MonoBehaviour
     public List<Vector2> spawnList = new List<Vector2>();
     public List<Vector2> spawnEnemyList = new List<Vector2>();
 
-    public float spawnCooldown = 3f;
-    public float spawnEnemyCooldown = 3f;
+    [SerializeField] public float spawnCooldown;
+    [SerializeField] public float spawnEnemyCooldown;
 
-    [SerializeField] bool Cooldown = true;
-    [SerializeField] bool CooldownEnemy = true;
+    bool Cooldown = true;
+    bool CooldownEnemy = true;
 
     private float _timer;
 
@@ -35,6 +35,10 @@ public class SpawnCoins : MonoBehaviour
         if (Cooldown)
         {
             random();
+        }
+
+        if (CooldownEnemy) 
+        {
             randomEnemy();
         }
     }
@@ -82,7 +86,7 @@ public class SpawnCoins : MonoBehaviour
 
         spawnPoint.transform.position = position;
 
-        CooldownEnemy = true;
+        CooldownEnemy = false;
 
         StartCoroutine(spawnTimeEnemy());
 
@@ -149,10 +153,10 @@ public class SpawnCoins : MonoBehaviour
     {
         GameObject[] coinsToDestroy = GameObject.FindGameObjectsWithTag("Coins");
 
-        foreach (GameObject obj1 in coinsToDestroy)
+        foreach (GameObject obj in coinsToDestroy)
         {
             spawnList.Clear();
-            Destroy(obj1);
+            Destroy(obj);
         }
     }
 
@@ -160,10 +164,10 @@ public class SpawnCoins : MonoBehaviour
     {
         GameObject[] enemyToDestroy = GameObject.FindGameObjectsWithTag("Enemy");
 
-        foreach (GameObject obj2 in enemyToDestroy)
+        foreach (GameObject obj in enemyToDestroy)
         {
             spawnEnemyList.Clear();
-            Destroy(obj2);
+            Destroy(obj);
         }
     }
 
