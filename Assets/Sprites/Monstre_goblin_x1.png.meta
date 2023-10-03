@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 60e06aa4d5cfb3a489034ae759acc596
+guid: 24db2bdcfb929bc49bd1f26c2d4c6e0c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 22
+  spritePixelsToUnits: 35
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -71,7 +71,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Piece_Anim_0
+      name: Monstre_goblin_x1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
+        x: 15
+        y: 142
+        width: 32
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bed553724db87a245bc0c80338aef420
-      internalID: -1037051071
+      spriteID: 276620f8b68816b4f85c11d498736ef7
+      internalID: -1949128397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Piece_Anim_1
+      name: Monstre_goblin_x1_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
+        x: 79
+        y: 141
+        width: 32
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed47f3326e1d66049a9f85976bc0205a
-      internalID: -266149693
+      spriteID: 745cdf23629a16644aa3988e43630199
+      internalID: 1214646957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Piece_Anim_2
+      name: Monstre_goblin_x1_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
+        x: 143
+        y: 140
+        width: 32
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f539ca952dbad9418c7b190e64a932b
-      internalID: -777150250
+      spriteID: a297e36ddc3baeb42b950730ae0808a7
+      internalID: 339537079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Piece_Anim_3
+      name: Monstre_goblin_x1_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
+        x: 15
+        y: 78
+        width: 32
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 906a8f36de9eb8544be9576d2fb895bb
-      internalID: 1834597870
+      spriteID: d9a6e699bc4b4754db9fc2f3b00e16f4
+      internalID: -116698176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Piece_Anim_4
+      name: Monstre_goblin_x1_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
+        x: 79
+        y: 78
+        width: 32
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d554972e79aa0242a00f727c775645f
-      internalID: -1345956009
+      spriteID: 9ee57ecf24fc94c49bd0668572f9a2f5
+      internalID: 2085015245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Piece_Anim_5
+      name: Monstre_goblin_x1_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
+        x: 143
+        y: 77
+        width: 32
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f8871daeacdd2b48879b7950ef3a66c
-      internalID: 1583622872
+      spriteID: 6072d40bf6a06164ab158b4f058de1a8
+      internalID: -1942480261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Piece_Anim_6
+      name: Monstre_goblin_x1_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
+        x: 15
+        y: 12
+        width: 32
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4ee0da848280ef46a4ab95b1d7dc294
-      internalID: 1666852612
+      spriteID: 988230e210f12b047928d0981b78a448
+      internalID: 1608379878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Piece_Anim_7
+      name: Monstre_goblin_x1_7
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
+        x: 79
+        y: 14
+        width: 32
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,29 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b13ab3ad532f0c7468a9aef7dba4d517
-      internalID: -522622039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Piece_Anim_8
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6a07292737887846a885d15dec05400
-      internalID: -187089438
+      spriteID: 9fb0fc6dce11e2f4ba718c1aeb8747de
+      internalID: 727332408
       vertices: []
       indices: 
       edges: []
@@ -322,15 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Piece_Anim_0: -1037051071
-      Piece_Anim_1: -266149693
-      Piece_Anim_2: -777150250
-      Piece_Anim_3: 1834597870
-      Piece_Anim_4: -1345956009
-      Piece_Anim_5: 1583622872
-      Piece_Anim_6: 1666852612
-      Piece_Anim_7: -522622039
-      Piece_Anim_8: -187089438
+      Monstre_goblin_x1_0: -1949128397
+      Monstre_goblin_x1_1: 1214646957
+      Monstre_goblin_x1_2: 339537079
+      Monstre_goblin_x1_3: -116698176
+      Monstre_goblin_x1_4: 2085015245
+      Monstre_goblin_x1_5: -1942480261
+      Monstre_goblin_x1_6: 1608379878
+      Monstre_goblin_x1_7: 727332408
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

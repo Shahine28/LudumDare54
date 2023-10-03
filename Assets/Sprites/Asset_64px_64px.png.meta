@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 46f96224434d23b40bf0c6ce7cc8b771
+guid: dc18de8b1ffca284585e022f9c2d1cab
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -71,8 +71,8 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 2
+    textureFormat: 4
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Smile_x1_0
+      name: Asset_64px_64px_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 142
-        width: 44
-        height: 32
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56ffd691cb29e7642851bda32d7cea1a
-      internalID: 1448634733
+      spriteID: c82611b34cbb3c748966620feeef41af
+      internalID: 706099726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Smile_x1_1
+      name: Asset_64px_64px_1
       rect:
         serializedVersion: 2
-        x: 73
-        y: 142
-        width: 46
-        height: 30
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,134 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa9526746a519d74180efbdd9efb9688
-      internalID: 1971812841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Smile_x1_2
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 142
-        width: 44
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ce05f77765e116449c09485600e3228
-      internalID: -754642302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Smile_x1_3
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 78
-        width: 46
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 832082269b9538243872d6ed00a1b7dd
-      internalID: -680650986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Smile_x1_4
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 78
-        width: 44
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebe83e7cf83292047b7a220e82c9bf4b
-      internalID: 670620050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Smile_x1_5
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 78
-        width: 46
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b1efe4ac0707c149b7a77df6d33c970
-      internalID: 47652706
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Smile_x1_6
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 14
-        width: 52
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46c1080b4d7de734789fbfe88ad5f0ff
-      internalID: -124849229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Smile_x1_7
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 14
-        width: 46
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c921912cc8c8384c93b0f4316a6773a
-      internalID: 1657630212
+      spriteID: 3b1eb1ea98f1a9646ae53f3f5eb763c8
+      internalID: 1366076741
       vertices: []
       indices: 
       edges: []
@@ -301,14 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Smile_x1_0: 1448634733
-      Smile_x1_1: 1971812841
-      Smile_x1_2: -754642302
-      Smile_x1_3: -680650986
-      Smile_x1_4: 670620050
-      Smile_x1_5: 47652706
-      Smile_x1_6: -124849229
-      Smile_x1_7: 1657630212
+      Asset_64px_64px_0: 706099726
+      Asset_64px_64px_1: 1366076741
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

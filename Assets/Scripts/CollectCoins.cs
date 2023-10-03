@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,12 +17,14 @@ public class CollectCoins : MonoBehaviour
             scriptScale.scale(_sizeCoins);
 
             GameObject ObjectDestroy = collision.gameObject;
-            Destroy(ObjectDestroy);
+            MyDestroy(ObjectDestroy);
         }
     }
 
-    void Destroy(GameObject objectDestroy)
+    void MyDestroy(GameObject objectDestroy)
     {
+        Debug.Log("oui");
+        FindObjectOfType<SpawnCoins>().spawnList.Remove(transform.position);
         Destroy(objectDestroy);
     }
 }
