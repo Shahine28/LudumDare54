@@ -11,7 +11,7 @@ public class DamageEnemy : MonoBehaviour
         GameObject _player = GameObject.Find("Player");
         Scale scale = _player.GetComponent<Scale>();
 
-        if (collision.CompareTag("Player") && !scale._downScale)
+        if (collision.CompareTag("Player") && scale._downScale)
         {
             scale.downScale(_downScale);
             DestroyEnemy();
