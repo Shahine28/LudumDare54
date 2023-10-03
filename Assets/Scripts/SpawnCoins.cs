@@ -118,12 +118,6 @@ public class SpawnCoins : MonoBehaviour
         GameObject coinToSpawn = CoinsPrefab;
 
         respawn = Instantiate(coinToSpawn, spawnPoint.transform.position, spawnPoint.transform.rotation);
-
-        foreach (Vector2 truc in spawnList)
-        {
-            print(truc);
-            print(spawnList.Count);
-        }
     }
 
     private void spawnEnemy()
@@ -137,13 +131,6 @@ public class SpawnCoins : MonoBehaviour
         respawnEnemy = Instantiate(enemyToSpawn, spawnPoint.transform.position, spawnPoint.transform.rotation);
 
         respawnEnemy.transform.localScale = scale;
-
-
-        foreach (Vector2 truc in spawnEnemyList)
-        {
-            print(truc);
-            print(spawnList.Count);
-        }
     }
 
     private IEnumerator spawnTime()

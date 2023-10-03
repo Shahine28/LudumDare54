@@ -16,6 +16,11 @@ public class CollectCoins : MonoBehaviour
             Scale scriptScale = GetComponent<Scale>();
             scriptScale.scale(_sizeCoins);
 
+            GameObject _manager = GameObject.Find("GameManager");
+            Scores scores = _manager.GetComponent<Scores>();
+
+            scores.ScoreUp(1);
+
             GameObject ObjectDestroy = collision.gameObject;
             MyDestroy(ObjectDestroy);
         }
